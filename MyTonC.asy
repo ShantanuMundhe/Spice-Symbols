@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 208 -96 0 0
+WINDOW 0 27 -107 Bottom 2
+WINDOW 1 113 -122 Left 2
+WINDOW 39 109 21 Center 2
+SYMATTR SpiceLine tgain=1u
+SYMATTR Prefix X
+SYMATTR SpiceModel MyTonC
+SYMATTR Description Constant Ton Controller
+SYMATTR ModelFile MyTonC.sub
+PIN 0 -80 LEFT 8
+PINATTR PinName TON
+PINATTR SpiceOrder 1
+PIN 0 -48 LEFT 8
+PINATTR PinName IV
+PINATTR SpiceOrder 2
+PIN 0 -16 LEFT 8
+PINATTR PinName ISENSE
+PINATTR SpiceOrder 3
+PIN 208 -16 RIGHT 8
+PINATTR PinName CLK
+PINATTR SpiceOrder 4
+PIN 208 -48 RIGHT 8
+PINATTR PinName DRV
+PINATTR SpiceOrder 5
+PIN 208 -80 RIGHT 8
+PINATTR PinName _DRV
+PINATTR SpiceOrder 6
